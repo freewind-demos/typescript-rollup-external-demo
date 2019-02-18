@@ -1,11 +1,11 @@
 import typescript from 'rollup-plugin-typescript2';
 
 export default {
-  input: 'main.ts',
+  input: 'hello.ts',
   plugins: [typescript()],
   output: {
     file: 'bundle.js',
-    format: 'cjs',
+    format: 'cjs'
   },
-  external: ['lodash']
+  external: ['lodash/capitalize']
 }

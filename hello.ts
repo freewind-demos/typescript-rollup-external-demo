@@ -1,5 +1,3 @@
-import {capitalize} from 'lodash'
+import capitalize from 'lodash/capitalize';
 
-export default function (name: string) {
-  return 'Hello, ' + capitalize(name) + '!'
-}
+console.log('Hello, ' + capitalize('typescript') + '!');
